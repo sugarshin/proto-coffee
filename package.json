@@ -1,0 +1,14 @@
+{
+  "name": "proto",
+  "version": "0.0.1",
+  "description": "Prototyping skeleton",
+  "scripts": {
+    "start": "budo main.coffee:main.js -v --transform coffeeify | garnish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sugarshin/proto"
+  },
+  "author": "sugarshin",
+  "license": "MIT"
+}
