@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Prototyping skeleton",
   "scripts": {
-    "start": "budo main.coffee:main.js -v --transform coffeeify | garnish"
+    "start": "budo main.coffee:main.js -ol -- -t coffeeify | garnish"
   },
   "repository": {
     "type": "git",
