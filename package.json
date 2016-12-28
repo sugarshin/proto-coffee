@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Prototyping skeleton",
   "scripts": {
-    "start": "budo index.coffee:index.js -ol -- -t coffeeify | garnish"
+    "start": "budo index.coffee:index.js -olv --ndjson -- -t coffeeify -t cssify --extension='.css' | garnish"
   },
   "repository": {
     "type": "git",
